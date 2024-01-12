@@ -1,6 +1,6 @@
 // page.tsx
 import React from 'react';
-import Layout from '../components/layout/layout';  // Ensure correct casing
+import Layout from '../components/layout/layout';
 
 const Page: React.FC = () => {
   return (
