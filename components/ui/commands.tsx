@@ -518,9 +518,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">
-                                Shows information on all your skills' progress.
-                            </div>
+                            <div className="content">Shows information on all your skills progress.</div>
                         </div>
                     </div>
                 </div>
@@ -535,7 +533,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="card-header-icon"></div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">Block users so they can't spam you with roleplay commands and harass you. Useful if they keep trying to kiss you.</div>
+                            <div className="content">Block users so they can&apost spam you with roleplay commands and harass you. Useful if they keep trying to kiss you.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -557,7 +555,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="card-header-icon"></div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">Block a roleplay command so people can't use it on you, in case you want to reject everyone from slapping you.</div>
+                            <div className="content">Block a roleplay command so people can&apost use it on you, in case you want to reject everyone from slapping you.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -579,9 +577,9 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="card-header-icon"></div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">See how many times each roleplay action has happened to you and how often you've done them to others.</div>
+                            <div className="content">See how many times each roleplay action has happened to you and how often you&aposve done them to others.</div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
                 <div id="Counter" className="tabcontent" style={activeTab === 'Counter' ? displayBlock : displayNone}>
                     <div className="card card-command" style={cardStyle}>
@@ -801,7 +799,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">It's time to nom!</div>
+                            <div className="content">It&aposs time to nom!</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -873,7 +871,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">It might be time to catch some Z's and peacefully sleep.</div>
+                            <div className="content">It might be time to catch some Z&aposs and peacefully sleep.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -992,7 +990,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">Sometimes a simple 'no' is the perfect response.</div>
+                            <div className="content">Sometimes a simple no is the perfect response.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -1076,7 +1074,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">It's a moment to think and navigate through thoughts.</div>
+                            <div className="content">It&aposs a moment to think and navigate through thoughts.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -1100,7 +1098,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">Sometimes a simple 'yes' can convey a world of agreement or enthusiasm.</div>
+                            <div className="content">Sometimes a simple yes can convey a world of agreement or enthusiasm.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -1148,7 +1146,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">It's okay to not like everyone.</div>
+                            <div className="content">It&aposs okay to not like everyone.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -1172,7 +1170,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">It's normal to wanne kill someone sometimes, Akira won't judge you.</div>
+                            <div className="content">It&aposs normal to wanne kill someone sometimes, Akira won&apost judge you.</div>
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
@@ -1220,7 +1218,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             </div>
                         </header>
                         <div className="card-content card-content-command">
-                            <div className="content">Feeling provoked or stirred up by someone's actions or words?</div>
+                            <div className="content">Feeling provoked or stirred up by someone&aposs actions or words?</div>
                         </div>
                     </div>
 

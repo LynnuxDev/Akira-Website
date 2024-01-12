@@ -2,6 +2,10 @@ import $ from 'jquery';
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
+import Img from 'next/image';
+
+import '../public/assets/css/style.css';
+import '../public/assets/css/main.css';
 
 const Custom404 = () => {
     useEffect(() => {
@@ -20,6 +24,8 @@ const Custom404 = () => {
     
     return (
         <>
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H"/>
+
             <Head>
                 {/* Main */}
                 <title>404 - Page Not Found</title>
@@ -31,13 +37,6 @@ const Custom404 = () => {
 
                 {/* Meta tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-                {/* CSS tags */}
-                <link rel="stylesheet" href="/assets/css/style.css"/>
-                <link rel="stylesheet" href="/assets/css/main.chunk.css"/>
-
-                {/* Google tag */}
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H"/>
             </Head>
 
             {/* Your HTML content goes here */}
@@ -66,15 +65,15 @@ const Custom404 = () => {
                 </nav>
             </header>           
             <div className="Notfound_container___vm_Q">
-                <img src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
+                <Img src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
 
                 <h4 className="background-color: transparent;">
-                    The page you're looking for can't be found.
+                    The page you&aposre looking for can&apost be found.
                 </h4>
                 <button onClick={() => window.location.href='https://akira.lynnux.xyz'} className="Notfound_not-found-button__M59dr">Home</button>
             </div>
 
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+            <Script src="https://code.jquery.com/jquery-3.6.0.min.js"/>
         </>
     );
 }
