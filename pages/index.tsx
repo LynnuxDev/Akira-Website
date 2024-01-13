@@ -89,29 +89,27 @@ const Index = () => {
                         </div>
                         <div className="banner-buttons ">
                             <a href="./commands/ ">
-                                <button>
-                                    <span>Commands</span>
-                                    <svg style={ButtonSVG} className="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
-                                        <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
-                                    </svg>
+                                <button><span>Commands</span>
+                                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
+                                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "></path>
+                                </svg>
                                 </button>
                             </a>
                             <a href="./status ">
                                 <button><span> Status </span>
-                                <svg style={ButtonSVG} className="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
-                                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
+                                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
+                                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "></path>
                                 </svg>
                                 </button>
                             </a>
                             <a href="./invite/ ">
                                 <button><span>Invite Akira</span>
-                                <svg  style={ButtonSVG} className="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
-                                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
+                                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true">
+                                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "></path>
                                 </svg>
                                 </button>
                             </a>
-
-                        </div>
+                        </div>      
                         <div className="overlay">
 
                         </div>
@@ -141,7 +139,6 @@ const Index = () => {
 export default Index;
 
 /*
-    <link rel="stylesheet" href="./assets/css/test.css">
 
 ⣿⡟⠙⠛⠋⠩⠭⣉⡛⢛⠫⠭⠄⠒⠄⠄⠄⠈⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⡇⠄⠄⠄⠄⣠⠖⠋⣀⡤⠄⠒⠄⠄⠄⠄⠄⠄⠄⠄⠄⣈⡭⠭⠄⠄⠄⠉⠙
