@@ -12,7 +12,7 @@ const Previews = () => {
                         <div className="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
                             <div className="card-content ">
                                 <div className="card-body text-center ">
-                                    <Image src="/assets/images/Akira-Command-Preview_Kiss.png " alt="Feature " className="img-fluid img-transition-fade round " width="400" height="350" loading="lazy"/>
+                                    <Image src="/assets/images/Akira-Command-Preview_Kiss.png" alt="Feature " className="img-fluid img-transition-fade round " width="400" height="350" loading="lazy"/>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const Previews = () => {
                                 <div className="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
                                     <div className="card-content ">
                                         <div className="card-body text-center ">
-                                            <Image src="/assets/images/Feature.png " alt="Feature " className="img-fluid img-transition-fade round " width="400" height="250" loading="lazy"/>
+                                            <Image src="/assets/images/Feature.png" alt="Feature " className="img-fluid img-transition-fade round " width="400" height="250" loading="lazy"/>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@ const Previews = () => {
                             <div id="ft-2 " className="col-lg-5 col-12 col-120 hide-on-mobile ">
                                 <div className="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
                                     <div className="card-content ">
-                                        <div className="card-body text-center ">
+                                        <div className="card-body text-center">
                                             <Image src="/assets/images/Feature.png " alt="Feature " className="img-fluid img-transition-fade round" width="400" height="250" loading="lazy"/>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ const Previews = () => {
                                 <div className="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
                                     <div className="card-content ">
                                         <div className="card-body text-center ">
-                                            <img src="/assets/images/Feature.png" alt="Feature " className="img-fluid img-transition-fade round " width="400" height="250" loading="lazy"/>
+                                            <Image src="/assets/images/Feature.png" alt="Feature " className="img-fluid img-transition-fade round " width="400" height="250" loading="lazy"/>
                                         </div>
                                     </div>
                                 </div>
