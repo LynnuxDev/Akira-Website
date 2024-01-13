@@ -83,7 +83,7 @@ const Commands = () => {
                     <main className="main">
                         <h3>Introduction</h3>
                         <p>
-                            Akira Bot (hereafter referred to as "Akira", "we", "us", or "our") is committed to protecting the privacy of its users. This privacy policy explains what information we collect, how we use it, and your rights regarding your information.
+                            Akira Bot (hereafter referred to as &quot;Akira&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy of its users. This privacy policy explains what information we collect, how we use it, and your rights regarding your information.
                         </p>
 
                         <h3>Information Collection and Use</h3>
@@ -118,7 +118,7 @@ const Commands = () => {
                         <h3>Your Rights</h3>
                         <p>
                             You have the right to access, rectify, and delete your information, as well as the right to limit its processing and to object to its processing. You also have the right to data portability. If you wish to exercise any of these rights, please contact
-                            us by using the "akira contact" command or contacting @Dark-LYNN#6568 on Discord.
+                            us by using the &quot;akira contact&quot; command or contacting @Dark-LYNN#6568 on Discord.
                         </p>
 
                         <h3>Changes to this Privacy Policy</h3>
