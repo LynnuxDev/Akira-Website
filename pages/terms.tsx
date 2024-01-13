@@ -86,7 +86,7 @@ const Commands = () => {
                         <h3>Use of the Bot</h3>
                         <p>Akira is intended for personal and non-commercial use. You may not use the bot for any illegal or unauthorized purpose. We reserve the right to terminate your use of the bot at any time if you violate these terms.</p>
                         <h3>User-Generated Content</h3>
-                        <p>By using the Discord Bot, you may provide us with content such as messages, comments, and other materials. You grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any content you provide through the bot.</p>
+                        <p>By using the Discord Bot, you may provide us with content such as messages, comments, and other materials. You grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any content you provide through the bot and/or the website.</p>
                         <h3>Modification of the Bot and these Terms</h3>
                         <p>We reserve the right to modify Akira or these terms of service at any time. Your continued use of the bot after any changes indicates your acceptance of the new terms. It is your responsibility to regularly check these terms for any updates.
                         </p>
