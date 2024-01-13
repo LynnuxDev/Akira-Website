@@ -19,7 +19,7 @@ interface NavBarProps {
       <header>
         <nav className="navbar nav-bar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <Link href="/">
+            <Link legacyBehavior href="/">
                 <a className="navbar-item">
                     <p className="nav-name">Akira</p>
                 </a>
@@ -38,32 +38,32 @@ interface NavBarProps {
           </div>
           <div className="navbar-menu" id="navbar-unfold">
             <div className="navbar-end">
-                <Link href="/">
+                <Link legacyBehavior href="/">
                     <a className={`navbar-item ${isItemActive('Home')}`}>
                         <i className="nav-icons fas fa-home nav-fa"></i>Home
                     </a>
                 </Link>
-                <Link href="/commands">
+                <Link legacyBehavior href="/commands">
                     <a className={`navbar-item ${isItemActive('Commands')}`}>
                         <i className="nav-icons fas fa-terminal nav-fa"></i>Commands
                     </a>
                 </Link>
-                <Link href="https://documentation.lynnux.xyz">
+                <Link legacyBehavior href="https://documentation.lynnux.xyz">
                     <a className={`navbar-item ${isItemActive('Documentation')}`}>
                         <i className="nav-icons fas fa-book-open nav-fa"></i>Documentation
                     </a>
                 </Link>
-                <Link href="/Permissions">
+                <Link legacyBehavior href="/Permissions">
                     <a className={`navbar-item ${isItemActive('Permissions')}`}>
                         <i className="nav-icons fas fa-check nav-fa"></i>Permissions
                     </a>
                 </Link>
-                <Link href="/Support">
+                <Link legacyBehavior href="/Support">
                     <a className={`navbar-item ${isItemActive('Support')}`}>
                         <i className="nav-icons fab fa-discord nav-fa"></i>Support
                     </a>
                 </Link>
-                <Link href="/Invite">
+                <Link legacyBehavior href="/Invite">
                     <a className={`navbar-item last-item ${isItemActive('Invite')}`}>
                         <i className="nav-icons fas fa-plus nav-fa"></i>Invite
                     </a>
