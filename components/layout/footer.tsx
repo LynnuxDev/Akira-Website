@@ -15,11 +15,12 @@ const Footer: React.FC = () => {
         <nav className="navigation-footer ">
             <div className="section-entry ">
                 <h3>Akira Bot</h3>
-                <a href="../permissions " data-preload-link="true " data-preload-link-activated="true ">Permissions</a>
                 <a href="../support " data-preload-link="true " data-preload-link-activated="true ">Support Server</a>
                 <a href="../commands " data-preload-link="true " data-preload-link-activated="true ">Commands</a>
-                <a href="../donate ">Premium</a>
-                <a href="../status ">Status</a>
+                <a href="../donate "data-preload-link="true " data-preload-link-activated="true ">Premium</a>
+                <a href="../status "data-preload-link="true " data-preload-link-activated="true ">Status</a>
+                <a href="../vote " data-preload-link="true " data-preload-link-activated="true ">Vote</a>
+
             </div>
             <div className="section-entry ">
                 <h3>About us</h3>

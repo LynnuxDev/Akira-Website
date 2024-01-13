@@ -110,6 +110,11 @@
         }
     }
     /* footer */
+    ::selection {
+        background: #ff47ff;
+        text-shadow: none;
+        color: #000
+    }
     
     button {
         appearance: none;
