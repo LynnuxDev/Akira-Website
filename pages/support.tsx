@@ -7,6 +7,8 @@ const DiscordRedirect = () => {
     sessionStorage.setItem('previousPage', window.location.href);
 
     window.open(discordServerInviteLink, '_blank');
+
+    window.location.replace(document.referrer);
   }, []);
 
   return (
