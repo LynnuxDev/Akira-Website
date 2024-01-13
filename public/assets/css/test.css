@@ -1,0 +1,37 @@
+.card {
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card {
+    transition: all .5s;
+    background-color: #f74fff;
+    margin: 2.15rem;
+}
+
+.card .title[data-v-972439db] {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.card[data-v-972439db] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    background-color: var(--bg-default);
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 0.375em;
+    box-shadow: 0 0 5px #00000075;
+    transition: .4s;
+}
+
+.card .value[data-v-972439db] {
+    font-size: 2.25rem;
+    font-weight: 700;
+}

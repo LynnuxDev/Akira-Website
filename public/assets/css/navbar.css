@@ -1,0 +1,100 @@
+
+:root {
+    --main-theme-color: #ff47ff
+}
+.nav-bar {
+    min-height: 64px;
+    height: 64px;
+    background-color: #2c2f33;
+    margin-bottom: 0!important
+}
+
+.navbar-brand {
+    height: 100%;
+    min-height: 100%
+}
+
+.navbar-brand>.navbar-item {
+    height: 100%
+}
+
+.navbar-brand>a.navbar-item {
+    height: 100%;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 64px;
+    font-weight: 700;
+    padding: 0 15px 0 0
+}
+
+.navbar-brand>a.navbar-item>img {
+    margin: 5px 10px;
+    min-height: calc(100% - 10px);
+    height: calc(100% - 10px)
+}
+
+.navbar-menu {
+    height: 100%;
+    min-height: 100%
+}
+
+.navbar-end {
+    height: 100%
+}
+
+.navbar-end>.navbar-item {
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 64px;
+    padding: 0 15px;
+    color: #fff
+}
+
+.navbar-item.nav-active {
+    text-decoration: none;
+    color: var(--main-theme-color)!important
+}
+
+.navbar-item:hover {
+    color: var(--main-theme-color)!important
+}
+
+.navbar-end:hover,
+.navbar-item:hover {
+    background-color: inherit!important
+}
+
+.nav-icon {
+    border-radius: 50%
+}
+
+.nav-name {
+    padding-left: 10px
+}
+
+i.nav-fa {
+    margin-right: 12px;
+    font-size: 24px
+}
+
+.navbar-menu,
+.navbar-menu>.navbar-end,
+.navbar-menu>.navbar-end>* {
+    background-color: #2c2f33
+}
+
+.navbar-burger {
+    color: var(--main-theme-color)!important;
+    height: 100%
+}
+
+.navbar-menu.is-active>.navbar-end>.navbar-item.last-item {
+    padding-bottom: 70px
+}
+
+.navbar-menu.is-active {
+    padding: 0
+}

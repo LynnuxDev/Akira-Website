@@ -65,12 +65,12 @@ const Custom404 = () => {
                 </nav>
             </header>           
             <div className="Notfound_container___vm_Q">
-                <Img src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
+                <Img width="500" height="500"src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
 
                 <h4 className="background-color: transparent;">
                     The page you&aposre looking for can&apost be found.
                 </h4>
-                <button onClick={() => window.location.href='https://akira.lynnux.xyz'} className="Notfound_not-found-button__M59dr">Home</button>
+                <button onClick={() => window.location.href='/'} className="Notfound_not-found-button__M59dr">Home</button>
             </div>
 
             <Script src="https://code.jquery.com/jquery-3.6.0.min.js"/>
