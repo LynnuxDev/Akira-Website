@@ -1,14 +1,17 @@
 import $ from 'jquery';
 import Script from 'next/script';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Footer from '../components/layout/footer';
 import NavBar from '../components/layout/header';
 import BotStats from '../components/ui/BotStats';
 import Previews from '../components/ui/previews';
-import '../public/assets/css/style.css';
+import Guilds from '../components/ui/guilds';
+import { Guild } from '../components/ui/guildTypes';
 
+import '../public/assets/css/style.css';
 import '../public/assets/css/test.css';
+import '../public/assets/css/guilds.css';
 
 const gtagScript = `
   window.dataLayer = window.dataLayer || [];
@@ -34,10 +37,24 @@ const setupBurger = () => {
 const Index = () => {
     const headerPadding: React.CSSProperties = {marginBottom: '2.5%'}
     const mainPadding: React.CSSProperties = {margin: '1em 2em 1em 2em'}
-    const ButtonSVG: React.CSSProperties = {fill: '#f47fff',position: 'absolute',top: '-5%',left: '-5%',width: '110%',height: '110%'}
+    const ColorWhite: React.CSSProperties = {color: 'white',}
     const Zindex4: React.CSSProperties = {zIndex:4}
     const Text1: React.CSSProperties = {margin: 'auto',color:'#fff', fontSize: 'xx-large'}
 
+    const [guilds, setGuilds] = useState<Guild[]>([]);
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const response = await fetch('https://api.lynnux.xyz/guilds');
+            const data = await response.json();
+            setGuilds(data.body);
+          } catch (error) {
+            console.error('Error fetching guilds:', error);
+          }
+        };
+    
+        fetchData();
+      }, []);
     
     useEffect(() => {
         setupBurger();
@@ -131,6 +148,15 @@ const Index = () => {
                             </div>
                         </div>
                         <Previews/>
+                        <div id="text-stats " style={Zindex4}>
+                            <div className="flex items-center w-full relative ">
+                                <div className="w-full flex items-center ">
+                                    <p className="mt-3 font-bold ml-3 text-light-500 truncate " style={Text1}>Featured guilds</p>
+                                </div>
+                            </div>
+                        </div>
+                            <Guilds/>
+                        <Footer/>
                     </main>
                 </div>
             </div>
