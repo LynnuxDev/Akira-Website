@@ -91,11 +91,11 @@ const Commands = () => {
                         <p>We reserve the right to modify Akira or these terms of service at any time. Your continued use of the bot after any changes indicates your acceptance of the new terms. It is your responsibility to regularly check these terms for any updates.
                         </p>
                         <h3>Disclaimer of Warranties</h3>
-                        <p>The Discord Bot is provided on an "as is" and "as available" basis. We make no representations or warranties of any kind, expressed or implied, as to the operation of the bot or the information, content, materials, or products included on the bot.</p>
+                        <p>The Discord Bot is provided on an &quot;as is&quot; and &quot;as available&quot; basis. We make no representations or warranties of any kind, expressed or implied, as to the operation of the bot or the information, content, materials, or products included on the bot.</p>
                         <h3>Limitation of Liability</h3>
                         <p>In no event shall we be liable for any damages arising from the use of the Discord Bot. This includes, but is not limited to, indirect, incidental, special, punitive, and consequential damages.</p>
                         <h3>Contact Us</h3>
-                        <p>If you have any questions about these terms of service, please contact us by using the "akira contact" command or contacting @dark_lynn on Discord.</p>
+                        <p>If you have any questions about these terms of service, please contact us by using the &quot;akira contact&quot; command or contacting @dark_lynn on Discord.</p>
                     </main>
                     <Footer/>
                 </div>
