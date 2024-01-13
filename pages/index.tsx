@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Footer from '../components/layout/footer';
 import NavBar from '../components/layout/header';
 import BotStats from '../components/ui/BotStats';
-
+import Previews from '../components/ui/previews';
 import '../public/assets/css/style.css';
 
 import '../public/assets/css/test.css';
@@ -130,6 +130,7 @@ const Index = () => {
                                 </div>
                             </div>
                         </div>
+                        <Previews/>
                     </main>
                 </div>
             </div>
