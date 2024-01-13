@@ -4,7 +4,7 @@ const DiscordRedirect = () => {
   useEffect(() => {
     const discordServerInviteLink = 'https://discord.gg/TUqZTutDUz';
     
-    window.location.replace(discordServerInviteLink);
+    window.open(discordServerInviteLink, '_blank');
   }, []);
 
   return (
