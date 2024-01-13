@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 
-const support = () => {
+const DiscordRedirect = () => {
   useEffect(() => {
     const discordServerInviteLink = 'https://discord.gg/TUqZTutDUz';
     
-    // Redirect to the Discord server instantly
     window.location.replace(discordServerInviteLink);
   }, []);
 
@@ -15,4 +14,4 @@ const support = () => {
   );
 };
 
-export default support;
+export default DiscordRedirect;
