@@ -5,6 +5,7 @@ import NavBar from '../components/layout/header';
 import '../public/assets/css/style.css';
 import '../public/assets/css/test.css';
 import '../public/assets/css/guilds.css';
+import Footer from '@/components/layout/footer';
 
 const gtagScript = `
   window.dataLayer = window.dataLayer || [];
@@ -14,7 +15,8 @@ const gtagScript = `
 `;
 
 const DiscordRedirect = () => {
-  useEffect(() => {
+  /*useEffect(() => {
+  
     const discordInviteLink = 'https://discord.com/oauth2/authorize?client_id=738057910923296839&scope=bot+applications.commands&permissions=4294307799';
 
     if (typeof window !== 'undefined') {
@@ -22,7 +24,7 @@ const DiscordRedirect = () => {
       window.open(discordInviteLink, '_blank');
       window.location.replace(document.referrer);
     }
-  }, []);
+  }, []); */
 
   return (
     <>
@@ -49,7 +51,9 @@ const DiscordRedirect = () => {
         <meta property="og:image" content="https://cdn.lynnux.xyz/images/AkiraAvatar.png"/>
         <meta name="theme-color" content="#f47fff"/>
       </Head>
-      <NavBar active="Home" />
+      <NavBar/>
+      <iframe src="https://discord.com/oauth2/authorize?client_id=738057910923296839&scope=bot+applications.commands&permissions=4294307799" height="400" width="1500" title="Akira Invite"/>
+      <Footer/>
     </>
   );
 };
