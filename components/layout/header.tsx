@@ -69,12 +69,12 @@ interface NavBarProps {
                         <i className="nav-icons fas fa-check nav-fa"></i>Permissions
                     </a>
                 </Link>
-                <Link passHref legacyBehavior href="/Support">
+                <Link passHref legacyBehavior href="https://discord.gg/TUqZTutDUz">
                     <a className={`navbar-item ${isItemActive('Support')}`}>
                         <i className="nav-icons fab fa-discord nav-fa"></i>Support
                     </a>
                 </Link>
-                <Link passHref legacyBehavior href="/Invite">
+                <Link passHref legacyBehavior href="https://discord.com/oauth2/authorize?client_id=738057910923296839&scope=bot+applications.commands&permissions=4294307799">
                     <a className={`navbar-item last-item ${isItemActive('Invite')}`}>
                         <i className="nav-icons fas fa-plus nav-fa"></i>Invite
                     </a>
