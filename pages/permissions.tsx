@@ -6,7 +6,7 @@ import NavBar from '../components/layout/header';
 
 import '../public/assets/css/style.css';
 
-const gtagScript = `
+const GtagScript = `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -15,10 +15,9 @@ const gtagScript = `
 
 const permissions: React.FC = () => {
     useEffect(() => {
-    
         const script = document.createElement('script');
         script.type = 'text/javascript';
-        script.innerHTML = gtagScript;
+        script.innerHTML = GtagScript;
         document.head.appendChild(script);
     
         return () => {
@@ -31,7 +30,7 @@ const permissions: React.FC = () => {
             <Script src="/assets/javascript/commands.js"/>
             {/* Google tag */}
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H" />
-            <Script id="gtag" dangerouslySetInnerHTML={{ __html: gtagScript }} />
+            <Script id="gtag" dangerouslySetInnerHTML={{ __html: GtagScript }} />
 
             <Head>
                 {/* Main */}
