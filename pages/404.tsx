@@ -9,6 +9,8 @@ import '../public/assets/css/style.css';
 import '../public/assets/css/main.css';
 
 const Custom404 = () => {
+    const PaddingBottom: React.CSSProperties = {paddingBottom: "1rem"}
+
     useEffect(() => {
         const $burger = $(".navbar-burger");
         const $menu = $(".navbar-menu");
@@ -43,10 +45,10 @@ const Custom404 = () => {
             {/* Your HTML content goes here */}
             <Header/>
             <div className="Notfound_container___vm_Q">
-                <Img width="500" height="500"src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
+                <Img style={PaddingBottom} width="500" height="500"src="https://cdn.lynnux.xyz/assets/svg/NotFound.svg" alt="not-found" className="Notfound_not-found-img__st0se" />
 
-                <h4 className="background-color: transparent;">
-                    The page you&aposre looking for can&apost be found.
+                <h4 className="background-color: transparent;" style={PaddingBottom}>
+                    The page you{"'"}re looking for can{"'"}t be found.
                 </h4>
                 <button onClick={() => window.location.href='/'} className="Notfound_not-found-button__M59dr">Home</button>
             </div>
