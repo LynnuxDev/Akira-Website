@@ -13,7 +13,7 @@ const GtagScript = `
   gtag('config', 'G-YSD2Q72W1H');
 `;
 
-const permissions: React.FC = () => {
+const Permissions: React.FC = () => {
     useEffect(() => {
         const script = document.createElement('script');
         script.type = 'text/javascript';
@@ -396,4 +396,4 @@ const permissions: React.FC = () => {
     )
 }
 
-export default permissions;
+export default Permissions;
