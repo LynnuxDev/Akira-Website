@@ -52,7 +52,7 @@ const DiscordRedirect = () => {
         <meta name="theme-color" content="#f47fff"/>
       </Head>
       <NavBar/>
-      <iframe src="https://discord.com/oauth2/authorize?client_id=738057910923296839&scope=bot+applications.commands&permissions=4294307799" height="400" width="1500" title="Akira Invite"/>
+
       <Footer/>
     </>
   );
