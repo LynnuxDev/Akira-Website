@@ -7,6 +7,10 @@
     @import url('./banner-styles.css');
     /* Banner */
     
+    :root {
+        --BG-Color: #23272a;
+        --Main-Color: #ff47ff;
+    }
     .overlay {
         position: absolute;
         top: 400px;
@@ -306,6 +310,10 @@
             width: 80%;
         }
     }
+    .marginBot0 {
+        margin-bottom: 0em;
+    }
+    
     /*  404 PAGE   */
     
     .Notfound_container___vm_Q {
@@ -330,4 +338,140 @@
         transition: all .3s;
         cursor: pointer;
         text-transform: capitalize;
+    }
+
+    .Padding0em {
+        padding: 0em 0em;
+    }
+    .Perms1 {
+        width: 100%; 
+        height: 35px; 
+        border-bottom: 1px solid #ff47ff; 
+        text-align: center; 
+        margin-bottom: 2em;
+    }
+    .Perms2 {
+        font-size: 40px; 
+        color: #fff;
+        background-color: var(--BG-Color); 
+        padding: 0 10px;
+    }
+    .Perms3 {
+        display: contents;
+    }
+    .Perms4 {
+        padding: 1em 1em 1em 1em; 
+        width: 100%;
+    }
+    .Perms5 {
+        color: #f47fff !important; 
+        font-weight: 600;
+    }
+    .Perms6 {
+        padding: 1em 1em 1em 1em;
+    }
+    .Perms7 {
+        padding: 1em 1em 1em 1em; 
+        width: 100%;
+        margin-top: 1em;
+    }
+    .Perms8 {
+        width: 100%; 
+        height: 35px; 
+        border-bottom: 1px solid black; 
+        text-align: center; 
+        margin-bottom: 2em;
+    }
+    .Perms9 {
+        font-size: 40px; 
+        background-color: #333333; 
+        padding: 0 10px;
+    }
+    .Perms10 {
+        font-size: 0.75rem;
+    }
+    .Perms11 {
+        -webkit-margin-start: 40px;
+    }
+    .Perms12 {
+        padding: 1em 1em 1em 1em; 
+        width: 100%; 
+        margin-top: 1%;
+    }
+    .Perms13 {
+        -webkit-margin-start: 40px;
+        margin-bottom: 1em;
+    }
+    .color {
+        color: #f47fff;
+    }
+    .colorWhite {
+        color: #fff;
+    }
+    .permText {
+        color: #f0f0f0;
+        font-weight: bold;
+    }
+    .MainPerms {
+        padding-top: 1rem;
+    }
+    .bg-main {
+        background-color: var(--BG-Color) !important;
+        box-shadow: none;
+    }
+    .bg-main2 {
+        background-color: #7979793b !important;
+    }
+    .uwu {
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #414141;
+    }
+    .uwu2 {
+        border-radius: 10px;
+        margin-top: 0.2em;
+        margin-bottom: -1em;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #08080850;
+    }
+    .uwu2,code {
+        color:#fff !important;
+        font-weight: 400;
+    }
+    .card-advanced {
+        padding: 1rem;
+    }
+    .table-Advanced > th {
+        color: #fff !important;
+        font-weight: 750;
+    }
+    .table-Advanced2 > td {
+        color: #ffffffd7 !important;
+        font-weight: 450;
+    }
+    .table-Advanced2 > li {
+        color: #ffffffd7 !important;
+        font-weight: 450;
+    }
+    .table-Advanced2 > dt {
+        color: #ffffffd7 !important;
+        font-weight: 450;
+    }
+    .table-Advanced2 > dd {
+        color: #ffffffd7 !important;
+        font-weight: 450;
+    }
+    .message-body {
+        color: #ffffff !important;
+        font-weight: 500;
+        font-size: small;
+        background-color: #000c;
+    }
+    .is-info {
+        border-color: #5263ff;
+    }
+    .is-danger {
+        border-color: #ff5261;
     }
