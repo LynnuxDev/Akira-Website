@@ -17,19 +17,19 @@ const Footer: React.FC = () => {
             <div className="section-entry ">
                 <h3>Akira Bot</h3>
                 <Link passHref legacyBehavior href="https://discord.gg/TUqZTutDUz">
-                    <a data-preload-link="true " data-preload-link-activated="true ">Support Server</a>
+                    <a data-preload-link="true" data-preload-link-activated="true ">Support Server</a>
                 </Link>
                 <Link passHref legacyBehavior href="/commands">
-                    <a data-preload-link="true " data-preload-link-activated="true ">Commands</a>
+                    <a data-preload-link="true" data-preload-link-activated="true ">Commands</a>
                 </Link>
                 <Link passHref legacyBehavior href="/donate">
-                    <a data-preload-link="true " data-preload-link-activated="true ">Premium</a>
+                    <a data-preload-link="true" data-preload-link-activated="true ">Premium</a>
                 </Link>
                 <Link passHref legacyBehavior href="/status">
-                    <a data-preload-link="true " data-preload-link-activated="true ">Status</a>
+                    <a data-preload-link="true" data-preload-link-activated="true ">Status</a>
                 </Link>
                 <Link passHref legacyBehavior href="/vote">
-                    <a  data-preload-link="true " data-preload-link-activated="true ">Vote</a>
+                    <a data-preload-link="true" data-preload-link-activated="true ">Vote</a>
                 </Link>
             </div>
             <div className="section-entry ">
