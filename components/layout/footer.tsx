@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
     const footerStyle: React.CSSProperties = {
@@ -15,24 +16,45 @@ const Footer: React.FC = () => {
         <nav className="navigation-footer ">
             <div className="section-entry ">
                 <h3>Akira Bot</h3>
-                <a href="../support " data-preload-link="true " data-preload-link-activated="true ">Support Server</a>
-                <a href="../commands " data-preload-link="true " data-preload-link-activated="true ">Commands</a>
-                <a href="../donate "data-preload-link="true " data-preload-link-activated="true ">Premium</a>
-                <a href="../status "data-preload-link="true " data-preload-link-activated="true ">Status</a>
-                <a href="../vote " data-preload-link="true " data-preload-link-activated="true ">Vote</a>
-
+                <Link passHref legacyBehavior href="https://discord.gg/TUqZTutDUz">
+                    <a data-preload-link="true " data-preload-link-activated="true ">Support Server</a>
+                </Link>
+                <Link passHref legacyBehavior href="/commands">
+                    <a data-preload-link="true " data-preload-link-activated="true ">Commands</a>
+                </Link>
+                <Link passHref legacyBehavior href="/donate">
+                    <a data-preload-link="true " data-preload-link-activated="true ">Premium</a>
+                </Link>
+                <Link passHref legacyBehavior href="/status">
+                    <a data-preload-link="true " data-preload-link-activated="true ">Status</a>
+                </Link>
+                <Link passHref legacyBehavior href="/vote">
+                    <a  data-preload-link="true " data-preload-link-activated="true ">Vote</a>
+                </Link>
             </div>
             <div className="section-entry ">
                 <h3>About us</h3>
-                <a href="../blog ">Dev notes</a>
-                <a href="../contact ">Contact Us</a>
-                <a href="../staff ">Our Team</a>
-                <a href="./todo">ToDo List</a>
+                <Link passHref legacyBehavior href="/blog">
+                    <a>Dev notes</a>
+                </Link>
+                <Link passHref legacyBehavior href="/contact">
+                    <a>Contact Us</a>
+                </Link>
+                <Link passHref legacyBehavior href="/staff">
+                    <a>Our Team</a>
+                </Link>
+                <Link passHref legacyBehavior href="/staff">
+                    <a>ToDo List</a>
+                </Link>
             </div>
             <div className="section-entry ">
                 <h3>Resources</h3>
-                <a href="../terms ">Terms of Service</a>
-                <a href="../policy ">Privacy Policy</a>
+                <Link passHref legacyBehavior href="/terms">
+                <a>Terms of Service</a>
+                </Link>
+                <Link passHref legacyBehavior href="/policy">
+                    <a>Privacy Policy</a>
+                </Link>
             </div>
         </nav>
         <p style={footerStyle}>Akira 2023 — All rights reserved</p>
