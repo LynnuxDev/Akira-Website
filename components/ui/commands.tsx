@@ -46,9 +46,9 @@ const [activeTab, setActiveTab] = useState('Moderation');
             </div>
             <div className="column is-one-half" style={opacity08}>
                 <div id="Moderation" className="tabcontent" style={activeTab === 'Moderation' ? displayBlock : displayNone}>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
-                            <p className="card-header-title">
+                    <div className="card card-command uwuPlain" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
+                            <p className="card-header-title ">
                                 <code>a.ban</code>
                             </p>
                             <div className="card-header-icon">
@@ -74,8 +74,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                 <div id="Utility" className="tabcontent" style={activeTab === 'Utility' ? displayBlock : displayNone}>
                 </div>
                 <div id="Info" className="tabcontent" style={activeTab === 'Info' ? displayBlock : displayNone}>
-                <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                <div className="card uwuTop card-command" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.about</code>
                             </p>
@@ -88,7 +88,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.help <a style={commandUsage}>{'{'}command/module{'}'} {'{'}-c{'}'}</a></code>
                             </p>
@@ -98,8 +98,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="content">Get help using Akira.</div>
                         </div>
                     </div>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                    <div className="card uwuBottom card-command" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.commandinfo <a style={commandUsage}>{'{'}command{'}'}</a></code>
                             </p>
@@ -525,8 +525,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                 <div id="Image" className="tabcontent" style={activeTab === 'Image' ? displayBlock : displayNone}>
                 </div>
                 <div id="Reaction" className="tabcontent" style={activeTab === 'Reaction' ? displayBlock : displayNone}>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                    <div className="card card-command uwuTop" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.block <a style={commandUsage}>&lt;user&gt;</a></code>
                             </p>
@@ -537,7 +537,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.unblock <a style={commandUsage}>&lt;user&gt;</a></code>
                             </p>
@@ -548,7 +548,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.blockcommand <a className={`tablinks ${activeTab === 'Counter' ? 'is-active' : ''}`} onClick={() => showTab('Counter')} style={commandUsagePointer}>&lt;counter-type&gt;</a></code>
                             </p>
@@ -559,7 +559,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.unblockcommand <a className={`tablinks ${activeTab === 'Counter' ? 'is-active' : ''}`} onClick={() => showTab('Counter')} style={commandUsagePointer}>&lt;counter-type&gt;</a></code>
                             </p>
@@ -569,8 +569,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="content">Unblock a roleplay command so people can use it on you again, in case you once again accept slaps and bonks.</div>
                         </div>
                     </div>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                    <div className="card card-command uwuBottom" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.counters <a style={commandUsage}>&lt;user&gt;</a></code>
                             </p>
@@ -582,8 +582,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                     </div> 
                 </div>
                 <div id="Counter" className="tabcontent" style={activeTab === 'Counter' ? displayBlock : displayNone}>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                    <div className="card card-command uwuTop" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.blush <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -594,7 +594,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.bonk <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -605,7 +605,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.boop <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -616,7 +616,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.cheer <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -627,7 +627,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.cuddle <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -638,7 +638,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.dance <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -649,7 +649,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.feed <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -660,7 +660,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.glomp <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -671,7 +671,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.handhold <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -683,7 +683,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.happy <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -695,7 +695,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.highfive <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -707,7 +707,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.highfive <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -719,7 +719,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.hug <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -731,7 +731,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.kiss <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -743,7 +743,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.laugh <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -755,7 +755,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.lick <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -767,7 +767,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.love <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -779,7 +779,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.lurk <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -791,7 +791,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.nom <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -803,7 +803,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.nuzzle <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -815,7 +815,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.pat <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -827,7 +827,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.peck <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -839,7 +839,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.peck <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -851,7 +851,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.pout <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -863,7 +863,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.sleep <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -875,7 +875,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.wag <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -887,7 +887,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.wave <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -899,7 +899,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.bonk <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -911,7 +911,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.bored <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -923,7 +923,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.chase <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -935,7 +935,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.cringe <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -946,7 +946,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="content">It might be a moment to cringe and share in the collective discomfort.</div>
                         </div>
                     </div><div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.dab <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -958,7 +958,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.facepalm <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -970,7 +970,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.nervous <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -982,7 +982,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.no <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -994,7 +994,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.panic <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1006,7 +1006,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.run <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1018,7 +1018,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.sip <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1030,7 +1030,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.smug <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1042,7 +1042,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.stare <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1054,7 +1054,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.tease <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1066,7 +1066,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.think <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1078,7 +1078,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.rage <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1090,7 +1090,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.yes <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1102,7 +1102,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.bite <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1114,7 +1114,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.cry <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1126,7 +1126,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.die <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1138,7 +1138,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.hate <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1150,7 +1150,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.sad <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1162,7 +1162,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.kill <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1174,7 +1174,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.shoot <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1186,7 +1186,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.slap <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1198,7 +1198,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                         </div>
                     </div>
                     <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.stab <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
@@ -1209,8 +1209,8 @@ const [activeTab, setActiveTab] = useState('Moderation');
                             <div className="content">A face-to-face fight? I like it.</div>
                         </div>
                     </div>
-                    <div className="card card-command" style={cardStyle}>
-                        <header className="card-header" style={cardHeader}>
+                    <div className="card card-command uwuBottom" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.triggered <a style={commandUsage}>&lt;user&gt; {'{'}message{'}'}</a></code>
                             </p>
