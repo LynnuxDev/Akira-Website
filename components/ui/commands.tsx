@@ -68,7 +68,7 @@ const [activeTab, setActiveTab] = useState('Moderation');
                 <div id="Features" className="tabcontent" style={activeTab === 'Features' ? displayBlock : displayNone}>
                 </div>
                 <div id="Permissions" className="tabcontent" style={activeTab === 'Permissions' ? displayBlock : displayNone}>
-                    <div className="card uwuTop card-command" style={cardStyle}>
+                    <div className="card uwuPlain card-command" style={cardStyle}>
                         <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.botchannel <a style={commandUsage}>{'{'}channel{'}'}</a></code>
