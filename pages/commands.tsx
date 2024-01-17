@@ -28,7 +28,7 @@ const setupBurger = () => {
     return () => {
       $burger.off('click');
     };
-  };
+};
 
   
 const Commands = () => {
