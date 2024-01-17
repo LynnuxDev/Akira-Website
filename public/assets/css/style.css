@@ -475,3 +475,17 @@
     .is-danger {
         border-color: #ff5261;
     }
+    @media screen and (max-width: 600px) {
+        footer .navigation-footer {
+            flex-direction: column;
+        }
+        .Perms2 {
+            font-size: 2rem;
+        }
+        .gridDisplay {
+            display: grid;
+        }
+        .permText {
+        font-weight: normal;
+        }
+    }
