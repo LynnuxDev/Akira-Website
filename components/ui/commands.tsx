@@ -68,13 +68,26 @@ const [activeTab, setActiveTab] = useState('Moderation');
                 <div id="Features" className="tabcontent" style={activeTab === 'Features' ? displayBlock : displayNone}>
                 </div>
                 <div id="Permissions" className="tabcontent" style={activeTab === 'Permissions' ? displayBlock : displayNone}>
+                    <div className="card uwuTop card-command" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
+                            <p className="card-header-title">
+                                <code>a.botchannel <a style={commandUsage}>{'{'}channel{'}'}</a></code>
+                            </p>
+                            <div className="card-header-icon"></div>
+                        </header>
+                        <div className="card-content card-content-command">
+                            <div className="content">
+                                Set a channel to be the only channel that allows commands.
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="Search" className="tabcontent" style={activeTab === 'Search' ? displayBlock : displayNone}>
                 </div>
                 <div id="Utility" className="tabcontent" style={activeTab === 'Utility' ? displayBlock : displayNone}>
                 </div>
                 <div id="Info" className="tabcontent" style={activeTab === 'Info' ? displayBlock : displayNone}>
-                <div className="card uwuTop card-command" style={cardStyle}>
+                    <div className="card uwuTop card-command" style={cardStyle}>
                         <header className="card-header uwuPlain" style={cardHeader}>
                             <p className="card-header-title">
                                 <code>a.about</code>
