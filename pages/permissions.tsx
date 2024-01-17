@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import React, { useRef, useState, useEffect } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -13,8 +14,24 @@ const GtagScript = `
   gtag('config', 'G-YSD2Q72W1H');
 `;
 
+const setupBurger = () => {
+    const $burger = $(".navbar-burger");
+    const $menu = $(".navbar-menu");
+  
+    $burger.click(function () {
+      $burger.toggleClass("is-active");
+      $menu.toggleClass("is-active");
+    });
+  
+    return () => {
+      $burger.off('click');
+    };
+};
+
 const Permissions: React.FC = () => {
     useEffect(() => {
+        setupBurger();
+
         const script = document.createElement('script');
         script.type = 'text/javascript';
         script.innerHTML = GtagScript;
@@ -69,7 +86,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0 ">
                                             <code className="uwu2">akira botchannel {"{"}channel{"}"}</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -85,7 +102,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira freechannel</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -106,7 +123,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira enable {"{"}command/group{"}"}</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -122,7 +139,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira disable {"{"}command/group{"}"}</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -145,7 +162,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira ignore {"{"}channel{"}"}</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -161,7 +178,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira listen {"{"}channel{"}"}</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -182,7 +199,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira blacklist &lt;user&gt;</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
@@ -198,7 +215,7 @@ const Permissions: React.FC = () => {
                                         <p className="card-header-title marginBot0">
                                             <code className="uwu2">akira whitelist &lt;user&gt;</code>
                                         </p>
-                                        <div className="card-header-icon">
+                                        <div className="card-header-icon gridDisplay">
                                             <span className="tag tag-mobile is-success is-pulled-right">MANAGE_SERVER</span>
                                             <span className="tag tag-mobile is-info is-pulled-right">SERVER ONLY</span>
                                         </div>
