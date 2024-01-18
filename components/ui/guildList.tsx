@@ -21,12 +21,24 @@ const GuildList = ({ guilds }: { guilds: Guild[] }) => {
   const firstHalf = guilds.slice(0, halfLength);
   const secondHalf = guilds.slice(halfLength);
 
+  const [isHovered, setIsHovered] = useState(false);
+
+  // Your existing code...
+
+  const handleGuildContainerHover = () => {
+    setIsHovered(true);
+  };
+
+  const handleGuildContainerLeave = () => {
+    setIsHovered(false);
+  }; 
+
   return (
     <>
-    <div id="guilds " className="flex flex-col mt-5 mb-5 gap-2 overflow-hidden relative">
+    <div id="guilds-container" className="flex flex-col mt-5 mb-5 gap-2 overflow-hidden relative" onMouseEnter={handleGuildContainerHover} onMouseLeave={handleGuildContainerLeave}>
         <div className="blur-box "></div>
       {/* First Half */}
-        <div className={`flex w-full w-1400 forward-animate`}>
+        <div id="guilds" className={`flex w-full w-1400 forward-animate ${isHovered ? 'paused' : 'playing'}`}>
             {firstHalf.map((guild) => (
                 <div key={guild.id} >
                     <div key={guild.id} className='flex h-18 w-full p-4 items-center'>
@@ -47,7 +59,7 @@ const GuildList = ({ guilds }: { guilds: Guild[] }) => {
             ))}
         </div>
       {/* Second Half */}
-        <div className={`flex w-full w-1400 backward-animate`}>
+        <div id="guilds" className={`flex w-full w-1400 backward-animate ${isHovered ? 'paused' : 'playing'}`}>
             {secondHalf.map((guild) => (
                 <div key={guild.id}>
                     <div key={guild.id} className='flex h-18 w-full p-4 items-center'>
