@@ -9,32 +9,30 @@ import '../../public/assets/css/guildsCheck.css';
 
 const GuildList = ({ guilds }: { guilds: Guild[] }) => {
     const [error, setError] = useState(null);
-    const temp: React.CSSProperties = {fontWeight: 'heavy',fontSize:'large',color: '#fff',paddingLeft: '0.3rem',}
-    const svg: React.CSSProperties = {marginTop: '10%'}
-    const padlef: React.CSSProperties = {paddingLeft: '1rem'}
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
-
-  const halfLength = Math.ceil(guilds.length / 2);
-  const firstHalf = guilds.slice(0, halfLength);
-  const secondHalf = guilds.slice(halfLength);
-
-  const [isHovered, setIsHovered] = useState(false);
-
-  // Your existing code...
-
-  const handleGuildContainerHover = () => {
-    setIsHovered(true);
-  };
-
-  const handleGuildContainerLeave = () => {
-    setIsHovered(false);
-  }; 
-
-  return (
-    <>
+    const temp: React.CSSProperties = {fontWeight: 'heavy',fontSize: 'large',color: '#fff',paddingLeft: '0.3rem',};
+    const svg: React.CSSProperties = { marginTop: '10%' };
+    const padlef: React.CSSProperties = { paddingLeft: '1rem' };
+  
+    const [isHovered, setIsHovered] = useState(false);
+  
+    const handleGuildContainerHover = () => {
+      setIsHovered(true);
+    };
+  
+    const handleGuildContainerLeave = () => {
+      setIsHovered(false);
+    };
+  
+    if (error) {
+      return <div>Error: {error}</div>;
+    }
+  
+    const halfLength = Math.ceil(guilds.length / 2);
+    const firstHalf = guilds.slice(0, halfLength);
+    const secondHalf = guilds.slice(halfLength);
+  
+    return (
+      <>
     <div id="guilds-container" className="flex flex-col mt-5 mb-5 gap-2 overflow-hidden relative" onMouseEnter={handleGuildContainerHover} onMouseLeave={handleGuildContainerLeave}>
         <div className="blur-box "></div>
       {/* First Half */}
