@@ -5,10 +5,6 @@
    border: 0 solid #e5e7eb;
 }
 
-.backward-animate {
-   animation: moveBackward 102.6s linear infinite;
- }
-
 .bg-transparent {
    background-color: transparent!important;
 }
@@ -106,10 +102,6 @@
 .ft-12 {
    font-size: 120%;
 }
-
-.forward-animate {
-   animation: moveForward 102.6s linear infinite;
- }
 
 .gap-2 {
    grid-gap: .5rem;
@@ -327,32 +319,36 @@ img {
    width: 100%
 }
 
+.forward-animate {
+   animation: moveForward 40.6s linear infinite
+}
+
+.backward-animate {
+   animation: moveBackward 40.6s linear infinite
+}
+
 @keyframes moveForward {
    0% {
-     transform: translateX(-2840px);
+       transform: translateX(-40%)
    }
    to {
-     transform: translateX(0);
-   }
-}
- 
-@keyframes moveBackward {
-   0% {
-     transform: translateX(0);
-   }
-   to {
-     transform: translateX(-2840px);
+       transform: translateX(100%)
    }
 }
 
 @keyframes moveBackward {
    0% {
-     transform: translateX(0px);
+       transform: translateX(100%)
    }
    to {
-     transform: translateX(-2840px);
+       transform: translateX(-40%)
    }
- }
+} 
+
+.paused {
+   animation-play-state: paused;
+}
+
 .bg-\[\#303A52\] {
    --un-bg-opacity: 1;
    background-color: rgba(48, 58, 82, var(--un-bg-opacity));
