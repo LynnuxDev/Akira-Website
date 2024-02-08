@@ -83,6 +83,17 @@ const [activeTab, setActiveTab] = useState('Moderation');
                     </div>
                 </div>
                 <div id="Search" className="tabcontent" style={activeTab === 'Search' ? displayBlock : displayNone}>
+                    <div className="card uwuTop card-command" style={cardStyle}>
+                        <header className="card-header uwuPlain" style={cardHeader}>
+                            <p className="card-header-title">
+                                <code>a.anime <a style={commandUsage}>{'<'}AnimeName{'>'}</a></code>
+                            </p>
+                            <div className="card-header-icon"></div>
+                        </header>
+                        <div className="card-content card-content-command">
+                            <div className="content">Search for an anime using the name.</div>
+                        </div>
+                    </div>
                 </div>
                 <div id="Utility" className="tabcontent" style={activeTab === 'Utility' ? displayBlock : displayNone}>
                 </div>
