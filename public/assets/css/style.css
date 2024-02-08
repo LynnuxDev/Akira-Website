@@ -11,6 +11,9 @@
         --BG-Color: #23272a;
         --Main-Color: #ff47ff;
     }
+    html {
+        background-color: var(--BG-Color);
+    }
     .overlay {
         position: absolute;
         top: 400px;
