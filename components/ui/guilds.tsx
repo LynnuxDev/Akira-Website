@@ -1,22 +1,20 @@
-// guilds.tsx
 import { useEffect, useState } from 'react';
 import GuildList from './guildList';
 import { Guild } from './guildTypes';
 
-// Custom type for the error object
 type FetchError = {
   message: string;
 };
 
 const Guilds: React.FC = () => {
-  // State to store guilds data
+  // store guilds data
   const [guilds, setGuilds] = useState<Guild[]>([]);
-  // State to track loading status
+  // track loading status
   const [loading, setLoading] = useState<boolean>(true);
-  // State to track error status
+  // track error
   const [error, setError] = useState<FetchError | null>(null);
 
-  // Fetch data from your API
+  // Fetch data
   const fetchData = async (): Promise<Guild[]> => {
     try {
       const response = await fetch('https://api.lynnux.xyz/guilds');
@@ -31,7 +29,7 @@ throw { message: 'Failed to fetch guilds' } as FetchError;
     }
   };
 
-  // Use useEffect to fetch data when the component mounts
+  // Use useEffect to fetch 
   useEffect(() => {
     const getGuilds = async () => {
       try {
@@ -59,7 +57,7 @@ throw { message: 'Failed to fetch guilds' } as FetchError;
 
   return (
     <div>
-      {/* Render GuildList component with guilds data */}
+      {/* Render GuildList component*/}
       <GuildList guilds={guilds} />
     </div>
   );
