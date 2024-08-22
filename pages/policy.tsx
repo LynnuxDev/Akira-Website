@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import Script from 'next/script';
 import React, { useEffect } from 'react';
-import Head from 'next/head';
+import Head from 'next/head'
 import Footer from '../components/layout/footer';
 import NavBar from '../components/layout/header';
 import CommandList from '../components/ui/commands'
@@ -11,46 +11,45 @@ import '../public/assets/css/terms.css';
 
 
 const gtagScript = `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-YSD2Q72W1H');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YSD2Q72W1H');
 `;
 
 const setupBurger = () => {
     const $burger = $(".navbar-burger");
     const $menu = $(".navbar-menu");
-  
-    $burger.click(function () {
-      $burger.toggleClass("is-active");
-      $menu.toggleClass("is-active");
-    });
-  
-    return () => {
-      $burger.off('click');
-    };
-  };
 
-  
+    $burger.click(function () {
+        $burger.toggleClass("is-active");
+        $menu.toggleClass("is-active");
+    });
+
+    return () => {
+        $burger.off('click');
+    };
+};
+
 const Commands = () => {
     const headerPadding: React.CSSProperties = {marginBottom: '2.5%'}
     const mainPadding: React.CSSProperties = {margin: '1em 2em 1em 2em'}
 
     useEffect(() => {
         setupBurger();
-    
+
         const script = document.createElement('script');
         script.type = 'text/javascript';
         script.innerHTML = gtagScript;
         document.head.appendChild(script);
-    
+
         return () => {
-          document.head.removeChild(script);
+            document.head.removeChild(script);
         };
-      }, []);
+    }, []);
 
 
-      return (
+    return (
         <>
             <Script src="/assets/javascript/commands.js"/>
             {/* Google tag */}
@@ -82,7 +81,7 @@ const Commands = () => {
                     <NavBar/>
                     <main className="main">
                         <h3>Last updated: Aug 22, 2024</h3>
-                        </br>
+                        <br/>
                         <h3>Introduction</h3>
                         <p>
                             Akira Bot (hereafter referred to as &quot;Akira&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy of its users. This privacy policy explains what information we collect, how we use it, and your rights regarding your information.
