@@ -101,7 +101,7 @@ const Commands = () => {
                             This information is used to provide and improve the services offered by Akira. We may also use this information to communicate with you, such as to respond to your requests or to send you notifications.
                         </p>
                         <p>
-                            When an error occurs, Akira may ask if you'd like to send the error data to our developers. This data may include details about the command that caused the error, your user ID, and relevant server information. Sending this data is entirely optional and requires your explicit consent. The information will only be used to diagnose and fix the issue.
+                            When an error occurs, Akira may ask if you&apos;d like to send the error data to our developers. This data may include details about the command that caused the error, your user ID, and relevant server information. Sending this data is entirely optional and requires your explicit consent. The information will only be used to diagnose and fix the issue.
                         </p>
 
                         <h3>Data Storage</h3>
