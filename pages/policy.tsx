@@ -81,6 +81,8 @@ const Commands = () => {
                 <div>
                     <NavBar/>
                     <main className="main">
+                        <h3>Last updated: Aug 22, 2024</h3>
+                        </br>
                         <h3>Introduction</h3>
                         <p>
                             Akira Bot (hereafter referred to as &quot;Akira&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy of its users. This privacy policy explains what information we collect, how we use it, and your rights regarding your information.
@@ -97,6 +99,9 @@ const Commands = () => {
                         </ul>
                         <p>
                             This information is used to provide and improve the services offered by Akira. We may also use this information to communicate with you, such as to respond to your requests or to send you notifications.
+                        </p>
+                        <p>
+                            When an error occurs, Akira may ask if you'd like to send the error data to our developers. This data may include details about the command that caused the error, your user ID, and relevant server information. Sending this data is entirely optional and requires your explicit consent. The information will only be used to diagnose and fix the issue.
                         </p>
 
                         <h3>Data Storage</h3>
