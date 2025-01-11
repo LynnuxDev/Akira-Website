@@ -63,14 +63,14 @@ const Index = () => {
         script.type = 'text/javascript';
         script.innerHTML = gtagScript;
         document.head.appendChild(script);
-    
+
         return () => {
-          document.head.removeChild(script);
+            document.head.removeChild(script);
         };
-      }, []);
+    }, []);
 
 
-      return (
+    return (
         <>
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H"/>
             <Script id="gtag" dangerouslySetInnerHTML={{ __html: gtagScript }} />
@@ -86,7 +86,7 @@ const Index = () => {
 
                 {/* Meta tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                
+
                 {/* Discord tag */}
                 <meta property="og:url" content="https://akira.lynnux.xyz/"/>
                 <meta property="og:type" content="website"/>
@@ -126,7 +126,7 @@ const Index = () => {
                                 </svg>
                                 </button>
                             </a>
-                        </div>      
+                        </div>
                         <div className="overlay">
 
                         </div>
@@ -155,7 +155,7 @@ const Index = () => {
                                 </div>
                             </div>
                         </div>
-                            <Guilds/>
+                            {/*<Guilds/>*/}
                         <Footer/>
                     </main>
                 </div>

@@ -17,7 +17,7 @@ const Guilds: React.FC = () => {
   // Fetch data
   const fetchData = async (): Promise<Guild[]> => {
     try {
-      const response = await fetch('https://api.lynnux.xyz/guilds');
+      const response = await fetch('https://api.lynnux.xyz/akira/guilds');
       if (!response.ok) {
 throw { message: 'Failed to fetch guilds' } as FetchError;
       }
