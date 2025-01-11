@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
                 <Link passHref legacyBehavior href="/donate">
                     <a data-preload-link="true" data-preload-link-activated="true ">Premium</a>
                 </Link>
-                <Link passHref legacyBehavior href="/status">
+                <Link passHref legacyBehavior href="https://status.lynnux.xyz/">
                     <a data-preload-link="true" data-preload-link-activated="true ">Status</a>
                 </Link>
                 <Link passHref legacyBehavior href="/vote">

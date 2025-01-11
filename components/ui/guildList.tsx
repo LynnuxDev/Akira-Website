@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Guild } from '../ui/guildTypes';
-import '../../public/assets/css/style.css';
-import '../../public/assets/css/test.css';
-import '../../public/assets/css/guildsCheck.css';
+import '@/styles/style.css';
+import '@/styles/test.css';
+import '@/styles/guildsCheck.css';
 
 
 const GuildList = ({ guilds }: { guilds: Guild[] }) => {

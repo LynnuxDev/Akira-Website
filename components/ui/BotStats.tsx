@@ -45,8 +45,8 @@ const BotStats = () => {
 
   useEffect(() => {
     const updateAnimatedStats = (targetStats: Stats) => {
-      const interval = 500; // milliseconds
-      const steps = 20; // number of steps
+      const interval = 10; // milliseconds
+      const steps = 40; // number of steps
 
       Object.keys(targetStats).forEach((key) => {
         const targetValue = targetStats[key as keyof Stats] || 0;

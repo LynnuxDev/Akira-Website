@@ -2,16 +2,9 @@ import React, { useEffect } from 'react';
 import Script from 'next/script';
 import Head from 'next/head';
 import NavBar from '../components/layout/header';
-import '../public/assets/css/style.css';
-import '../public/assets/css/test.css';
-import '../public/assets/css/guilds.css';
-
-const gtagScript = `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-YSD2Q72W1H');
-`;
+import '@/styles/style.css';
+import '@/styles/test.css';
+import '@/styles/guilds.css';
 
 const DiscordRedirect = () => {
   useEffect(() => {
@@ -27,7 +20,6 @@ const DiscordRedirect = () => {
   return (
     <>
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H" />
-      <Script id="gtag" dangerouslySetInnerHTML={{ __html: gtagScript }} />
 
       <Head>
         {/* Main */}
@@ -40,7 +32,7 @@ const DiscordRedirect = () => {
 
         {/* Meta tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
+
         {/* Discord tag */}
         <meta property="og:url" content="https://akira.lynnux.xyz/"/>
         <meta property="og:type" content="website"/>

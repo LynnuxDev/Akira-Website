@@ -11771,7 +11771,7 @@ a.has-text-danger-dark:focus,a.has-text-danger-dark:hover {
 }
 
 #parallax_bg_container {
-    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)),url(../images/Background.jpg) !important;
+    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)),url(/assets/images/Background.jpg) !important;
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -11810,7 +11810,7 @@ a.has-text-danger-dark:focus,a.has-text-danger-dark:hover {
 
 html {
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -11983,7 +11983,7 @@ button.is-outlined {
 }
 
 #parallax_bg_container {
-    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)),url('../images/Background.jpg');
+    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)),url('/assets/images/Background.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;

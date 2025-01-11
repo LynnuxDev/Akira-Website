@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import '/public/assets/css/style.css';
-import '/public/assets/css/main.css';
+import '@/styles/style.css';
+import '@/styles/main.css';
 
 
 const Previews = () => {
